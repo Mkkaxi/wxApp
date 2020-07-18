@@ -1,2 +1,120 @@
-<!--pages/card/card.wxml-->
-<text>pages/card/card.wxml</text>
+<view class="container">
+  <view class="user-info"> <!--用户信息-->
+    <view> <!--头部图片-->
+      <image class="user-info-pic" src="./img/head.jpg">
+      </image>
+    </view>
+
+    <view class="user-info-desc"> <!--用户信息详情-->
+      <view class="name"> <!--姓名-->
+          Alisa
+      </view>
+      <view class="sex">  <!--性别-->
+        <image src="./img/girl.png">
+        </image>
+      </view>
+
+      <view class="nature"> <!--性格标签-->
+        <text class="nature1 text">开朗</text>
+        <text class="nature2 text">自由职业</text>
+        <text class="nature3 text">爱折腾</text>
+      </view>
+      
+      <view class="details">  <!--详细信息-->
+        <view class="detail">
+          <image class="" src="./img/adr.png" >
+          </image>
+          <text>深圳市</text>
+        </view>
+        <view class="detail">
+          <image class="" src="./img/nec.png" >
+          </image>
+          <text>互联网</text>
+        </view>
+        <view class="detail">
+          <image class="" src="./img/heart.png" >
+          </image>
+          <text>角色扮演</text>
+        </view>
+        <view class="detail">
+          <image class="" src="./img/wx.png" >
+          </image>
+          <text>luoqi741</text>
+        </view>
+        <view class="detail">
+          <image class="" src="./img/phone.png" >
+          </image>
+          <text>15017933191</text>
+        </view>
+      </view>
+
+      <view class="ewm">  <!--二维码-->
+        <image src="./img/ewm.png"></image>
+      </view>
+    </view>
+
+
+
+
+
+  </view>
+
+  <view class="look">
+    <view class="look-img">
+      <image class="" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2811375664,2687366628&fm=26&gp=0.jpg" ></image>
+      <image class="" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1603037357,2263646824&fm=11&gp=0.jpg" ></image>
+      <image class="" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2714684979,4095105124&fm=11&gp=0.jpg" ></image>
+    </view>
+
+    <view class="look-text">
+      今天2人，累计1092人看过我
+    </view>
+
+    <view class="look-next">
+      <image src="./img/next.png"></image>
+    </view>
+
+
+  </view>
+
+  <view class="provide mod">
+    <view class="icon"></view>
+    <view class="title">提供</view>
+    <view class="mod-text">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</view>
+  </view>
+
+  <view class="need mod">
+    <view class="icon"></view>
+    <view class="title">需求</view>
+    <view class="mod-text">软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</view>
+  </view>
+
+  <view class="adv">
+    <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3189378804,2055602535&fm=26&gp=0.jpg"></image>
+  </view>
+
+  <view class="person">
+    <view class="person-icon"></view>
+    <view class="person-title">个人品牌</view>
+    <view class="person-img">
+      <image  src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1406992556,1222013979&fm=26&gp=0.jpg" ></image>
+      <image  src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1742188166,1550084615&fm=26&gp=0.jpg"></image>
+      <image  src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=103305772,3071546644&fm=26&gp=0.jpg" ></image>
+    </view>
+  </view>
+
+  <view class="but">
+    <view class="butt edit">
+      <image src="./img/edit.png"></image>
+      编辑
+    </view>
+    <view class="butt share">分享名片</view>
+  </view>
+    
+
+  <view class="envelope"> <!--红包放在大容器中-->
+    <image src="./img/envelope.png"></image>
+  </view>
+
+
+</view>
