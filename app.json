@@ -1,9 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/card/card",
-    "pages/hongBao/hongBao"
+    "pages/hongBao/hongBao",
+    "pages/card/card"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,2 +1,80 @@
-<!--pages/hongBao/hongBao.wxml-->
-<text>pages/hongBao/hongBao.wxml</text>
+<!-- 红包页面 -->
+<view class="redbag">
+  <!-- 红色背景部分 -->
+  <view class="title">
+    <image src="./img/red-envelope.png" />
+  </view>
+  <div class="touxiang">
+    <!-- 头像图片 -->
+    <view class="photo">
+      <image src="./img/touxiang.jpg" />
+    </view>
+  </div>
+  <!-- 头部部分 -->
+  <view class="header">
+    <!-- 上中下文字 -->
+    <view class="header-top">
+      <text>Ailsa</text>
+    </view>
+    <view class="header-middle">
+      <text>恭喜发财，大吉大利</text>
+    </view>
+    <view class="header-bottom">
+      <text class="header-bottom_word">12.3</text>
+      <text class="header-bottom_unit">元</text>
+    </view>
+  </view>
+  <!-- 中部左中右文字 -->
+  <view class="center">
+    <view class="center-left">
+      <text>红包纪录</text>
+    </view>
+    <view class="center-middle">
+      <text>前去提现</text>
+    </view>
+    <view class="center-right">
+      <text>转发给好友</text>
+    </view>
+  </view>
+  <!-- 底部栏 -->
+  <view class="footer">
+    <!-- 第一行 -->
+    <view class="footer-top">
+      <text>共100个，已领取3个</text>
+    </view>
+    <view class="line"></view>
+    <!-- 第二行 -->
+    <view class="footer-center">
+      <!-- 第二行左边 -->
+      <view class="footer-center_left">
+        <view class="footer-center_left_first">
+          <text class="footer-center_left_line1">拆红包</text>
+          <text class="footer-center_left_line11">(浅浅的夏)</text>
+        </view>
+        <view class="footer-center_left_second">
+          <text class="footer-center_left_line2">2018/12/20 21:43</text>
+        </view>
+      </view>
+      <!-- 第二行右边 -->
+      <view class="footer-center_right"><text>5元</text></view>
+      <view class="cleanFloat"></view>
+    </view>
+    <view class="linetwo"></view>
+    <!-- 第三行 -->
+    <view class="footer-center">
+      <!-- 第二行左边 -->
+      <view class="footer-center_left">
+        <view class="footer-center_left_first">
+          <text class="footer-center_left_line1">拆红包</text>
+          <text class="footer-center_left_line11">(浅浅的夏)</text>
+        </view>
+        <view class="footer-center_left_second">
+          <text class="footer-center_left_line2">2018/12/20 21:43</text>
+        </view>
+      </view>
+      <!-- 第二行右边 -->
+      <view class="footer-center_right"><text>5元</text></view>
+      <view class="cleanFloat"></view>
+    </view>
+  </view>
+</view>

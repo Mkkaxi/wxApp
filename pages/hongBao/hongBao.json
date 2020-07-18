@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#F00000",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "红包",
+  "backgroundColor": "#FFFFFF",
+  "backgroundTextStyle": "light"
 }
